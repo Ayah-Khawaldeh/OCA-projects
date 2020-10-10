@@ -1,0 +1,206 @@
+
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        height:60px;
+        background-color:#e49a61 ;
+        padding: 0px 5%;
+     }
+     nav ul {
+         display: flex;
+         color: #AB4542;
+     }
+     nav ul li a{
+         margin: 30px;
+         color:#E2C0A6;
+         font-size: 17px;
+     }
+     .logo{
+        font-family: 'Sansita Swashed', cursive;
+         color:#592448;
+         font-size: 22pX;
+     }
+     .active{
+         font-weight: bold;
+         color: #8f2925;
+     }
+     
+     .skills{
+         
+         background:  rgb(236, 229, 195);
+         padding: 2% 8% 2% 5%;
+         
+     }
+ .skills div p:nth-child(1){
+        color: #C5B569;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font width: bold;
+        font-size:30px;
+        line-height:17px;
+        padding-left:3%;
+        padding-top:3%;
+        
+    }
+    
+.skills div p:nth-child(2){
+color: #52318a;/
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: 20px;
+line-height:20px;
+word-spacing: 6px;
+padding-left:1%;
+    }
+.skills div{ 
+    margin: 30px 0px ;
+    background:#B56464;
+    width: 85%;
+    height: 200px;
+   
+}
+.row{  
+    background:  #ece5c3;
+    padding: 2% 10% 7% 5%;
+}
+.row img{  
+    height:550px;
+    width: 100%;
+    
+    
+}
+.row p{ 
+ font-size: 24px;
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 30px 0px ;
+  background:#B56464;
+  align-items: right;
+    
+  
+}
+footer{
+    background: #f5e0e0;
+    padding: 90px 0;
+  }
+  
+  .footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .Ayah{
+    width: 200px;
+    height: 200px;
+  }
+  .social-media{
+    margin: 20px 0;
+  }
+  
+  .social-media a{
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  
+  .social-media a:hover{
+    color: #fc5c65;
+  }
+  
+  .right-col h1{
+    font-size: 26px;
+  }
+  
+  .border{
+    width: 100px;
+    height: 4px;
+    background: #fc5c65;
+  }
+  
+  .newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+  }
+  
+  .btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #fc5c65;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  }
+  
+  .btn:hover{
+    opacity: .7;
+  }
+  
+  .page-content{
+    min-height: 100vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width:960px) {
+    .footer-container{
+      max-width: 600px;
+    }
+    .right-col{
+      width: 100%;
+      margin-bottom: 60px;
+    }
+  
+    .left-col{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  
+  @media screen and (max-width:700px){
+    .btn{
+      margin: 0;
+      width: 100%;
+      margin-top: 20px;
+      }
+  }
+  
+  @media screen and (max-width:1024px) { CSS FORMin WIDTH 1024Px }
+       @media screen and (max-width:768px) { CSS FOR Min WIDTH 768Px }
+       @media screen and (max-width:640px) { CSS FOR Min WIDTH 640Px }
+       @media screen and (max-width:480px) { CSS FOR Min WIDTH 480Px }
+       @media screen and (max-width:320px) { CSS FOR Min WIDTH 320Px }

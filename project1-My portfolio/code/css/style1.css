@@ -1,0 +1,305 @@
+body {
+   background:#B56464 ;
+   margin:0px;
+   padding:0px;
+
+   }
+   ul{
+       list-style: none;
+   }
+   a{
+      text-decoration: none;
+   }
+   nav{
+       display: flex;
+       justify-content: space-between;
+       align-items:center;
+       height:60px;
+       background-color:#e49a61 ;
+       padding: 0px 5%;
+    }
+    nav ul {
+        display: flex;
+        color: #AB4542;
+    }
+    nav ul li a{
+        margin: 30px;
+        color:#E2C0A6;
+        font-size: 17px;
+    }
+    .logo{
+        font-family: 'Sansita Swashed', cursive;
+        color:#592448;
+        font-size: 22pX;
+        
+    }
+    .active{
+        font-weight: bold;
+        color: #8f2925;
+    }
+    section{
+        width: 100%;
+        height: 95vh;
+        background-image:url("../Images/0.jpeg") ;
+        background-repeat:no-repeat ;
+        background-size: cover;
+        position: relative;
+    }
+    #hi{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        color: #ECBF52;
+        font-size: 40px;
+    }
+    #name{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        color: #F06870;
+        letter-spacing: 1px;
+        font-size:60px;
+        line-height: 30px;
+    }
+    span{
+        color:#83B9DB;
+        margin:0 50% 0 33%;
+        
+    }
+    #job{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #AC96BC;
+        font-size: 30px;
+        font-size:53px;
+        line-height: 31px;
+    }
+    
+    .img{
+       
+       width: 100%;
+       height: 200px;
+    }
+    .work1{
+    margin-top: 30px;
+    margin-right:110px;
+    margin-left: 75px ;
+        width: 10%;
+        height: 215px;
+        
+    }
+    .work2{
+        margin-top: 60px;
+        margin-left: 80px;
+        margin-right:70px;
+        width: 13%;
+        height: 230px;
+        
+        
+    }
+    .work3{
+       
+        margin-top: 29px;
+        margin-left: 110px;
+        margin-right:100px;
+        width: 21%;
+        height: 280px;
+       
+    }
+    .work4{
+        margin-top: 40px;
+         margin-left: 100px;
+         margin-right:20px;
+        width: 16%;
+        height: 240px;
+        
+    }
+
+    
+    .text-container p{
+        white-space: pre;
+        margin: 45px 0px 25px;
+        word-spacing: 10px;
+       
+        
+    }
+   .text-container {
+       position: absolute;
+       left: 13%;
+       top:24%;
+    }
+    .code{
+        
+        height:600px ;
+        position: absolute;
+        bottom: 40px;
+        left: 70%;
+    }  
+  .main{
+    margin-left: 5%;
+    margin-right: 5%;
+        width: 90%;
+        height: 700px;
+        background-color: cornsilk;
+        border-radius: 20px;
+        box-shadow: 2px 2px 12px 6px;
+        display: flex;
+        position: relative;
+        justify-content: space-evenly;
+        align-items: center;
+        align-items: center;
+       
+    }
+    .main img {
+        width: 500px;
+        height: 550px;
+    }
+    .main div{
+        width: 550px;
+        height:35%;
+    }
+    .main div p:nth-child(1){
+        color: darkgoldenrod;
+        font-family: cursive;
+        font width: bold;
+        font-size:27px;
+        line-height:0px;
+    }
+    .main div p:nth-child(2){
+        color: darkred;
+        font-size: 20px;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        line-height: 6px;
+    }
+    .main div p:nth-child(3){
+    color: rgb(211, 120, 89);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    }
+    .main div button{
+        width: 120px;
+        height: 42px;
+        color: rgb(60, 92, 60);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(224, 224, 185);
+    }
+      
+      footer{
+        background: #f8d9d9;
+        padding: 90px 0;
+      }
+      
+      .footer-container{
+        max-width: 1300px;
+        margin: auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+      }
+      
+      .Ayah{
+        width: 200px;
+        height: 200px;
+      }
+      
+      .social-media{
+        margin: 20px 0;
+      }
+      
+      .social-media a{
+        color: #001a21;
+        margin-right: 25px;
+        font-size: 22px;
+        text-decoration: none;
+        transition: .3s linear;
+      }
+      
+      .social-media a:hover{
+        color: #fc5c65;
+      }
+      
+      .right-col h1{
+        font-size: 26px;
+      }
+      
+      .border{
+        width: 100px;
+        height: 4px;
+        background: #fc5c65;
+      }
+      
+      .newsletter-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      
+      .txtb{
+        flex: 1;
+        padding: 18px 40px;
+        font-size: 16px;
+        color: #293043;
+        background: #ddd;
+        border: none;
+        font-weight: 700;
+        outline: none;
+        border-radius: 30px;
+        min-width: 260px;
+      }
+      
+      .btn{
+        padding: 18px 40px;
+        font-size: 16px;
+        color: #f1f1f1;
+        background: #fc5c65;
+        border: none;
+        font-weight: 700;
+        outline: none;
+        border-radius: 30px;
+        margin-left: 20px;
+        cursor: pointer;
+        transition: opacity .3s linear;
+      }
+      
+      .btn:hover{
+        opacity: .7;
+      }
+      
+      .page-content{
+        min-height: 100vh;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      @media screen and (max-width:960px) {
+        .footer-container{
+          max-width: 600px;
+        }
+        .right-col{
+          width: 100%;
+          margin-bottom: 60px;
+        }
+      
+        .left-col{
+          width: 100%;
+          text-align: center;
+        }
+      }
+      
+      
+      @media screen and (max-width:700px){
+        .btn{
+          margin: 0;
+          width: 100%;
+          margin-top: 20px;
+          } 
+      }
+       @media screen and (max-width:1024px) { CSS FORMin WIDTH 1024Px }
+       @media screen and (max-width:768px) { CSS FOR Min WIDTH 768Px }
+       @media screen and (max-width:640px) { CSS FOR Min WIDTH 640Px }
+       @media screen and (max-width:480px) { CSS FOR Min WIDTH 480Px }
+       @media screen and (max-width:320px) { CSS FOR Min WIDTH 320Px }
+      
