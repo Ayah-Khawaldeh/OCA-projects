@@ -1,0 +1,17 @@
+
+.Logo-container{
+    padding: 5rem 0 ;
+    background: black;
+    /*position: relative;*/
+
+}
+.logo-image{
+    display: block;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .logo-image {
+        width: 25rem;
+        height: 12.5rem;
+    }
+}

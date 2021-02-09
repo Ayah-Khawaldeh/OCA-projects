@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Open+sans);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+.snip1515 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0.65vm;
+    color: #000000;
+    text-align: center;
+    line-height: 1.4em;
+    font-size: 25px;
+    box-shadow: none !important;
+
+}
+
+.snip1515 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.snip1515 .profile-image {
+    display: inline-block;
+    /*width: 80%;*/
+    z-index: 1;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #FF7F50;
+    border-radius: 25px;
+}
+
+.snip1515 .profile-image img {
+    /*max-width: 100%;*/
+    width:150px;
+    height:150px;
+    vertical-align: top;
+    clear: both;
+}
+
+ .card {
+    width: 100%;
+    background-color: black;
+    color: #555;
+    padding: 2px ;
+    margin: -70px auto 0 auto;
+    display: inline-block;
+    clear: both;
+    border-radius: 25px;
+
+
+}
+ .card h2 {
+     color : white;
+ }
+.snip1515 h2{
+    font-size: 16px;
+
+}
+
+/*.snip1515 h3,*/
+/*.snip1515 h4,*/
+.snip1515 p {
+    margin: 0 0 2px;
+    padding: 5px;
+
+}
+
+.snip1515 h3 {
+    font-weight: 600;
+    font-size: 3.5em;
+    font-family: 'Playfair Display', Arial, sans-serif;
+}
+
+.snip1515 h4 {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.snip1515 p {
+    font-size: 1em;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+.snip1515 .icons {
+    display: flex;
+    padding: 10px;
+}
+
+.snip1515 i {
+    padding: 5px 2px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    color: #e8b563;
+    opacity: 0.75;
+}
+
+.snip1515 i:hover {
+    opacity: 1;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+.big-container-website-developer {
+    padding : 5rem 0;
+}
+
+/****************************************************************************************************/
+.six-website-developer h1 {
+    text-align: center;
+    font-size:3rem;
+    font-weight:400;
+    text-transform: uppercase;
+    word-spacing: 0.3rem;
+    letter-spacing:0.2rem;
+    color:#FF7F50;
+    font-family: 'Sriracha', cursive;
+}
+.six-website-developer h1 span {
+    line-height:2em; padding-bottom:15px;
+    text-transform: none;
+    font-size:.7em;
+    font-weight: normal;
+    font-style: italic; font-family: 'Sriracha', cursive;
+    color:#999; letter-spacing:-0.005em; word-spacing:1px;
+
+    /*letter-spacing:none;*/
+}
+.six-website-developer h1:after, .six-website-developer h1:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 5rem;
+    height: 0.4rem;
+    content: "";
+    right: 5rem;
+    margin:auto;
+    background-color: #ccc;
+}
+.six-website-developer h1:before {
+    background-color:#FF7F50;
+    right: 0.5rem; width: 9rem;
+}
+/*********************************************************************************************************************/
+/*@media screen and (max-width:769px){*/
+/*    */
+/*}*/
+/*@media screen and (max-width:767px){*/
+/*    .snip1515{*/
+/*        display: grid;*/
+/*        grid-template-columns: repeat(1,1fr);*/
+/*    }*/
+/*}*/
+
+
+
+/*@media screen and (min-width:1024px) {*/
+/*    .snip1515{*/
+/*        display: grid;*/
+/*        grid-template-columns: repeat(5,1fr);*/
+/*    }*/
+/*}*/
+/*@media screen and (min-width:768px) and (max-width:1023px){*/
+/*    .snip1515{*/
+/*        display: grid;*/
+/*        grid-template-columns: repeat(2,1fr);*/
+/*    }*/
+/*}*/
+
+
+
